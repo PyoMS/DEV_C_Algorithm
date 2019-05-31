@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-	
+	int arr[10] = {1,10,5,8,7,6,4,3,2,9};
 	int min,i,j,index,temp;
-	int arr[10] = {10,7,2,4,8,6,3,5,9,1};
+	
 	for(i=0;i<10;i++){
 		min = 9999;
 		for(j=i;j<10;j++){
